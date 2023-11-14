@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/heic0611b.jpg);
+    position: relative;
+    
+}
+.item_one img{
+    width: 70px;
+    height: 70px;
+    top: 244px;
+    left: 606px;
+    position: absolute;
+    animation: sun 5s linear infinite;
+}
+@keyframes sun{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_two{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 231px;
+    left: 592px;
+    position: absolute;
+    animation: item_two_anim 5s linear infinite;
+}
+@keyframes item_two_anim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_two img{
+    width: 40px;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: mercury 7s linear infinite;
+}
+@keyframes mercury{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_three{
+    width: 148px;
+    height:148px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 210px;
+    left: 569px;
+    position: absolute;
+    animation: item_three_anim 6s linear infinite;
+}
+@keyframes item_three_anim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_three img{
+    width: 40px;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: venus 9s linear infinite;
+}
+@keyframes venus{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.item_four{
+    width: 210px;
+    height: 210px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 180px;
+    left: 536px;
+    position: absolute;
+    animation: item_four_anim 7s linear infinite;
+}
+@keyframes item_four_anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_four img{
+    width: 30px;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: earth 10s linear infinite;
+}
+@keyframes earth{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_five{
+    width: 260px;
+    height: 260px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    position: absolute;
+    top: 154px;
+    left: 511px;
+    border-radius: 50%;
+    animation: item_five_anim 8s linear infinite;
+}
+@keyframes item_five_anim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_five img{
+    width: 28px;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: mars 11s linear infinite;
+}
+@keyframes mars{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_six{
+    width: 310px;
+    height: 310px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    top: 130px;
+    left: 486px;
+    position: absolute;
+    border-radius: 50%;
+    animation: item_six_anim 9s linear infinite;
+}
+@keyframes item_six_anim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_six img{
+    width: 34px;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: jupitar 12s linear infinite;
+}
+@keyframes jupitar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_seven{
+    width: 360px;
+    height: 360px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 105px;
+    left: 460px;
+    position: absolute;
+    animation: item_seven_anim 10s linear infinite;
+}
+@keyframes item_seven_anim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_seven img{
+    width: 40px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: saturn 13s linear infinite;
+}
+@keyframes saturn{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_eight{
+    width: 410px;
+    height: 410px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 80px;
+    left: 435px;
+    position: absolute;
+    animation: item_eight_anim 11s linear infinite;
+}
+@keyframes item_eight_anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_eight img{
+    width: 28px;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: uranus 9s linear infinite;
+}
+@keyframes uranus{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_nine{
+    width: 455px;
+    height: 455px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 59px;
+    left: 412px;
+    position: absolute;
+    animation: item_nine_anim 12s linear infinite;
+}
+@keyframes item_nine_anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_nine img{
+    width: 25px;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: naptune 8s linear infinite;
+}
+@keyframes naptune {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_ten{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(164, 161, 161, 0.949);
+    border-radius: 50%;
+    top: 36px;
+    left: 390px;
+    position: absolute;
+    animation: item_ten_anim 13s linear infinite;
+}
+@keyframes item_ten_anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.item_ten img{
+    width: 22px ;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: pluto 9s linear infinite;
+}
+@keyframes pluto{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
